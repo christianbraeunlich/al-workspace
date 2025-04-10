@@ -1,4 +1,9 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "useProjectDependencies": true,
+  "doNotPublishApps": true,
+  "useCompilerFolder": true,
+  "runs-on": "ubuntu-latest",
+  "gitHubRunner": "ubuntu-latest"
 }
