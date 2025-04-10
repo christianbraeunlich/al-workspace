@@ -10,10 +10,17 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "90c0b3f4-0571-4dc8-93a8-c313c5ed2bb6",
+      "name": "Just Anotter Core App",
+      "publisher": "christianbraeunlich",
+      "version": "1.0.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "25.0.0.0",
   "idRanges": [
     {
       "from": 60600,
