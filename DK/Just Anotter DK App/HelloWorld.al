@@ -4,6 +4,8 @@
 
 namespace christianbraeunlich.DK.JustAnotterApp;
 
+using Microsoft.Sales.Customer;
+
 pageextension 60600 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
