@@ -5,12 +5,20 @@
             "path": "W1/Just Anotter Core App"
         },
         {
+            "name": "Just Anotter Core App TEST",
+            "path": "W1/Just Anotter Core App.Test"
+        },
+        {
             "name": "Just Anotter US App",
             "path": "US/Just Anotter US App"
         },
         {
             "name": "Just Anotter DE App",
             "path": "DE/Just Anotter DE App"
+        },
+        {
+            "name": "Just Anotter DE App TEST",
+            "path": "DE/Just Anotter DE App.Test"
         },
         {
             "path": "."

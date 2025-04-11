@@ -3,24 +3,12 @@ codeunit 60800 "HelloWorld Test"
     Subtype = Test;
 
     [Test]
-    [HandlerFunctions('HelloWorldMessageHandler')]
-    procedure TestHelloWorldMessage()
+    procedure TestTariffNumber()
     var
-        CustList: TestPage "Customer List";
+        TariffNumber: Record "Tariff Number";
     begin
-        CustList.OpenView();
-        CustList.Close();
-        if (not MessageDisplayed) then
-            ERROR('Message was not displayed!');
+        if MaxStrLen(TariffNumber.Description) <> 250 then
+            Error('TariffNumber Description <> 250.');
     end;
-
-    [MessageHandler]
-    procedure HelloWorldMessageHandler(Message: Text[1024])
-    begin
-        MessageDisplayed := MessageDisplayed or (Message = 'App published: Hello world');
-    end;
-
-    var
-        MessageDisplayed: Boolean;
 }
 
