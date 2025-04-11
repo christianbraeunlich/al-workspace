@@ -2,23 +2,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Publish: Your own server",
+            "name": "Attach: Your own server",
             "type": "al",
-            "request": "launch",
+            "request": "attach",
             "environmentType": "OnPrem",
             "server": "http://bcserver25-de",
             "serverInstance": "BC",
             "authentication": "UserPassword",
-            "startupObjectId": 22,
             "breakOnError": "All",
             "breakOnRecordWrite": "None",
-            "launchBrowser": true,
             "enableSqlInformationDebugger": true,
             "enableLongRunningSqlStatements": true,
             "longRunningSqlStatementsThreshold": 500,
             "numberOfSqlStatements": 10,
-            "tenant": "default",
-            "usePublicURLFromServer": true
+            "breakOnNext": "WebServiceClient",
+            "tenant": "default"
         }
     ]
 }

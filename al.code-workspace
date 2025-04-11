@@ -1,14 +1,27 @@
 {
     "folders": [
         {
+            "name": "Just Anotter Core App",
             "path": "W1/Just Anotter Core App"
         },
         {
+            "name": "Just Anotter US App",
             "path": "US/Just Anotter US App"
         },
         {
-            "path": "DK/Just Anotter DK App"
+            "name": "Just Anotter DE App",
+            "path": "DE/Just Anotter DE App"
+        },
+        {
+            "path": "."
         }
     ],
-    "settings": {}
+    "settings": {
+        "al.backgroundCodeAnalysis": "File",
+        "al.enableCodeAnalysis": true,
+        "al.codeAnalyzers": [
+            "${CodeCop}",
+            "${UICop}"
+        ]
+    }
 }
