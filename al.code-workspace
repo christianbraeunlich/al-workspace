@@ -1,7 +1,13 @@
 {
     "folders": [
         {
-            "path": ".AL-Go"
+            "path": "W1/Just Anotter Core App"
+        },
+        {
+            "path": "US/Just Anotter US App"
+        },
+        {
+            "path": "DK/Just Anotter DK App"
         }
     ],
     "settings": {}
