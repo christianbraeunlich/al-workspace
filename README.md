@@ -1,5 +1,7 @@
 # AL Workspace
 
+## Download artifacts from onprem/25.6.32556.0/w1 container
+
 ```
 [2025-04-11 18:54:44.05] Using reference symbols cache paths: [c:\code\GitHub\christianbraeunlich\al-workspace\W1\Just Anotter Core App\.alpackages]
 [2025-04-11 18:54:44.05] Sending request to http://bcserver25-w1:7049/BC/dev/packages?publisher=Microsoft&appName=Application&versionText=25.0.0.0&appId=00000000-0000-0000-0000-000000000000&tenant=default
@@ -14,7 +16,9 @@ Base Application by Microsoft (25.6.0.0)
 [2025-04-11 18:54:47.02] All reference symbols have been downloaded.
 ```
 
+## Download artifacts from onprem/25.6.32556.0/de container
 
+```
 [2025-04-11 18:56:11.85] Using reference symbols cache paths: [c:\code\GitHub\christianbraeunlich\al-workspace\DE\Just Anotter DE App\.alpackages]
 [2025-04-11 18:56:11.85] Targeting server 'http://bcserver25-de', server instance 'BC' and tenant 'default'.
 [2025-04-11 18:56:11.86] Using user name and password authentication. User name used is: 'admin'.
@@ -29,3 +33,4 @@ Base Application by Microsoft (25.6.0.0)
 [2025-04-11 18:56:14.79] Sending request to http://bcserver25-de:7049/BC/dev/packages?publisher=Microsoft&appName=Business Foundation&versionText=25.6.0.0&appId=f3552374-a1f2-4356-848e-196002525837&tenant=default
 [2025-04-11 18:56:14.79] Sending request to http://bcserver25-de:7049/BC/dev/packages?publisher=Microsoft&appName=Base Application&versionText=25.6.0.0&appId=437dbf0e-84ff-417a-965d-ed2bb9650972&tenant=default
 [2025-04-11 18:56:15.08] All reference symbols have been downloaded.
+```
