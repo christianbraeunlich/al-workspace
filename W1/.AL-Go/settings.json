@@ -2,5 +2,6 @@
   "country": "w1",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "artifact": "https://bcartifacts-exdbf9fwegejdqak.b02.azurefd.net/onprem/25.6.32556.0/w1"
 }
